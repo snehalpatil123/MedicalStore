@@ -1,0 +1,65 @@
+﻿@model Medicalstore.Models.Customer
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Customer</h4>
+<hr />
+<div class="row">
+
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="row">
+                <div class="col-md-6">
+            <div class="form-group">
+                <label asp-for="cust_id" class="control-label">Enter Customer Id:</label>
+                <input asp-for="cust_id" class="form-control"  readonly/>
+                <span asp-validation-for="cust_id" class="text-danger"></span>
+            </div>
+            </div>
+            <div class="col-md-6">
+            <div class="form-group">
+                <label asp-for="cust_nm" class="control-label">Enter Customer Name:</label>
+                <input asp-for="cust_nm" class="form-control" />
+                <span asp-validation-for="cust_nm" class="text-danger"></span>
+            </div>
+            </div>
+            <div class="col-md-6">
+            <div class="form-group">
+                <label asp-for="cust_address" class="control-label">Enter Customer Address:</label>
+                <input asp-for="cust_address" class="form-control" />
+                <span asp-validation-for="cust_address" class="text-danger"></span>
+            </div>
+            </div>
+            <div class="col-md-6">
+            <div class="form-group">
+                <label asp-for="cust_phone" class="control-label">Enter Customer Mobile No:</label>
+                <input asp-for="cust_phone" class="form-control" />
+                <span asp-validation-for="cust_phone" class="text-danger"></span>
+            </div>
+            </div>
+            <div class="col-md-6">
+            <div class="form-group">
+                <label asp-for="cust_email" class="control-label">Enter Customer Email:</label>
+                <input asp-for="cust_email" class="form-control" />
+                <span asp-validation-for="cust_email" class="text-danger"></span>
+            </div>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </div>
+        </form>
+    </div>
+
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

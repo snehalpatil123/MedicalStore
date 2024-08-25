@@ -1,0 +1,47 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}<form method="post">
+    <select name="t1" class="form-select">
+        @{
+            if (ViewData["Customerlist"] != null)
+            {
+                List<Customer> customers = (List<Customer>)ViewData["Customerlist"];
+                foreach (var customer in customers)
+                {
+                    <option value="@customer.cust_id">@customer.cust_nm</option>
+                }
+            }
+        }
+    </select>
+    <input type="submit" value="Show" />
+</form>
+@{
+    if (ViewData["list"] != null)
+    {
+        <table class="table table-bordered table-hover">
+            <tr class="text-center bg-dark text-white">
+                <th>Receipt Id</th>
+                <th>Receipt Date</th>
+                <th>Customer Name</th>
+                <th>Receipt ammount</th>
+
+            </tr>
+            @{
+                List<dynamic> Receiptlist = (List<dynamic>)ViewData["list"];
+                foreach (var Receipt in Receiptlist)
+                {
+                    <tr class="text-center">
+                        <td>@Receipt.rec_id</td>
+                        <td>@Receipt.rec_date</td>
+                        <td>@Receipt.cust_nm</td>
+                        <td>@Receipt.rec_amt</td>
+
+                    </tr>
+                }
+            }
+        </table>
+    }
+}
+

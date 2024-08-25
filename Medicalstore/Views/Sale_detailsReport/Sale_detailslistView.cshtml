@@ -1,0 +1,39 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<table class="table table-bordered table-hover">
+    <tr class="text-center text-white bg-dark">
+        <th>Sale detail Id</th>
+        <th>sale Date</th>
+        <th>Medecine nm</th>
+        <th>rate</th>
+        <th>qty</th>
+        <th>amt</th>
+        <th>gst</th>
+        <th>Total</th>
+
+
+    </tr>
+    @{
+        if (ViewData["sale_Details"] != null)
+        {
+            List<dynamic> SaleDetailslist = (List<dynamic>)ViewData["sale_Details"];
+            foreach (var SaleDetailsdata in SaleDetailslist)
+            {
+                <tr class="text-center">
+                    <td>@SaleDetailsdata.sale_det_id</td>
+                    <td>@SaleDetailsdata.sale_date</td>
+                   <td>@SaleDetailsdata.med_nm</td>
+                   <td>@SaleDetailsdata.rate</td>
+                   <td>@SaleDetailsdata.qty</td>
+                   <td>@SaleDetailsdata.amt</td>
+                   <td>@SaleDetailsdata.gst</td>
+                   <td>@SaleDetailsdata.total</td>
+
+                </tr>
+            }
+        }
+    }
+</table>

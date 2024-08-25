@@ -1,0 +1,60 @@
+﻿@model Medicalstore.Models.Medicine_Master
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Medicine Master</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+      Medicine Id
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.med_id)
+        </dd>
+        <dt class = "col-sm-2">
+            medicine Name
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.med_nm)
+        </dd>
+        <dt class = "col-sm-2">
+      Medicine Categoery Id
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.cat_id)
+        </dd>
+        <dt class = "col-sm-2">
+         Brand Id
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.brand_id)
+        </dd>
+        <dt class = "col-sm-2">
+          Contents
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.contents)
+        </dd>
+        <dt class = "col-sm-2">
+           Rate
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.rate)
+        </dd>
+        <dt class = "col-sm-2">
+          Stock
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.stock)
+        </dd>
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    <a asp-action="Index">Back to List</a>
+</div>

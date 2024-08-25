@@ -1,0 +1,42 @@
+﻿@model Medicalstore.Models.Receipt
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Receipt</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+        Receipt Id
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.rec_id)
+        </dd>
+        <dt class = "col-sm-2">
+         Receipt Date
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.rec_date)
+        </dd>
+        <dt class = "col-sm-2">
+         Customer Id
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.cust_id)
+        </dd>
+        <dt class = "col-sm-2">
+        Receipt Ammount
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.rec_amt)
+        </dd>
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    <a asp-action="Index">Back to List</a>
+</div>

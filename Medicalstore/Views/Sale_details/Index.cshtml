@@ -1,0 +1,77 @@
+﻿@model IEnumerable<Medicalstore.Models.Sale_details>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Sale Details</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr class="text-center text-white bg-dark">
+            <th>
+             Sale Details Id
+            </th>
+            <th>
+              Sale Id
+            </th>
+            <th>
+             Medicine Id
+            </th>
+            <th>
+               Rate
+            </th>
+            <th>
+           Quantity
+            </th>
+            <th>
+             Ammount
+            </th>
+            <th>
+             Gst
+            </th>
+            <th>
+            Total
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.sale_det_id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.sale_id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.med_id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.rate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.qty)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.amt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.gst)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.total)
+            </td>
+            <td>
+                @* @Html.ActionLink("Edit", "Edit", new {  id=item.sale_det_id }) *@|
+                @Html.ActionLink("Details", "Details", new { id=item.sale_det_id})|
+                @Html.ActionLink("Delete", "Delete", new {  id=item.sale_det_id })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

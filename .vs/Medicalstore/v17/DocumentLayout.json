@@ -1,0 +1,837 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Downloads\\Medicalstore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\controllers\\reports\\sale_masterreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\controllers\\reports\\sale_masterreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\controllers\\reports\\medicine_masterbrandreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\controllers\\reports\\medicine_masterbrandreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\controllers\\reports\\medicine_catreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\controllers\\reports\\medicine_catreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\controllers\\reports\\brandreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\controllers\\reports\\brandreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\models\\sale_masterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\models\\sale_masterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\controllers\\sale_mastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\controllers\\sale_mastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\models\\sale_detailsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\models\\sale_detailsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\controllers\\sale_detailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\controllers\\sale_detailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\views\\sale_master\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\views\\sale_master\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\models\\brandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\models\\brandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\controllers\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\controllers\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\controllers\\reports\\customerreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\controllers\\reports\\customerreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\controllers\\receiptcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\controllers\\receiptcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\controllers\\medicine_mastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\controllers\\medicine_mastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\controllers\\medicine_catcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\controllers\\medicine_catcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\controllers\\reports\\receiptreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\controllers\\reports\\receiptreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\views\\invoice\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\views\\invoice\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\views\\sale_master\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\views\\sale_master\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\views\\sale_details\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\views\\sale_details\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\views\\medicine_master\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\views\\medicine_master\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\views\\medicine_master\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\views\\medicine_master\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\models\\medicine_masterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\models\\medicine_masterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\models\\medicine_catrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\models\\medicine_catrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\models\\medicine_cat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\models\\medicine_cat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\models\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\models\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\models\\ibrandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\models\\ibrandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\models\\sale_details.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\models\\sale_details.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\views\\sale_details\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\views\\sale_details\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\views\\brand\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\views\\brand\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\views\\brand\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\views\\brand\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\views\\brand\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\views\\brand\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\controllers\\reports\\sale_detailsmasterreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\controllers\\reports\\sale_detailsmasterreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\controllers\\reports\\medicine_masterreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\controllers\\reports\\medicine_masterreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\models\\receiptrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\models\\receiptrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\models\\medicine_master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\models\\medicine_master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\models\\isale_masterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\models\\isale_masterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\models\\isale_detailsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\models\\isale_detailsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\models\\ireceiptrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\models\\ireceiptrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\models\\imedicine_catrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\models\\imedicine_catrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\views\\receipt\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\views\\receipt\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\models\\sale_master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\models\\sale_master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\views\\sale_details\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\views\\sale_details\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|c:\\users\\user\\downloads\\medicalstore\\medicalstore\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A4C4E5-C662-478F-9E05-221080F684BC}|Medicalstore\\Medicalstore.csproj|solutionrelative:medicalstore\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Medicine_MasterbrandReportController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Controllers\\Reports\\Medicine_MasterbrandReportController.cs",
+              "RelativeDocumentMoniker": "Medicalstore\\Controllers\\Reports\\Medicine_MasterbrandReportController.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Controllers\\Reports\\Medicine_MasterbrandReportController.cs",
+              "RelativeToolTip": "Medicalstore\\Controllers\\Reports\\Medicine_MasterbrandReportController.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T18:01:50.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Sale_masterReportController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Controllers\\Reports\\Sale_masterReportController.cs",
+              "RelativeDocumentMoniker": "Medicalstore\\Controllers\\Reports\\Sale_masterReportController.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Controllers\\Reports\\Sale_masterReportController.cs",
+              "RelativeToolTip": "Medicalstore\\Controllers\\Reports\\Sale_masterReportController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T18:12:05.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Program.cs",
+              "RelativeDocumentMoniker": "Medicalstore\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Program.cs",
+              "RelativeToolTip": "Medicalstore\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T11:11:56.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Medicine_CatReportController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Controllers\\Reports\\Medicine_CatReportController.cs",
+              "RelativeDocumentMoniker": "Medicalstore\\Controllers\\Reports\\Medicine_CatReportController.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Controllers\\Reports\\Medicine_CatReportController.cs",
+              "RelativeToolTip": "Medicalstore\\Controllers\\Reports\\Medicine_CatReportController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T18:01:42.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BrandReportController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Controllers\\Reports\\BrandReportController.cs",
+              "RelativeDocumentMoniker": "Medicalstore\\Controllers\\Reports\\BrandReportController.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Controllers\\Reports\\BrandReportController.cs",
+              "RelativeToolTip": "Medicalstore\\Controllers\\Reports\\BrandReportController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T18:01:01.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BrandController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Controllers\\BrandController.cs",
+              "RelativeDocumentMoniker": "Medicalstore\\Controllers\\BrandController.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Controllers\\BrandController.cs",
+              "RelativeToolTip": "Medicalstore\\Controllers\\BrandController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowA0AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T11:36:10.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Sale_masterRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Models\\Sale_masterRepository.cs",
+              "RelativeDocumentMoniker": "Medicalstore\\Models\\Sale_masterRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Models\\Sale_masterRepository.cs",
+              "RelativeToolTip": "Medicalstore\\Models\\Sale_masterRepository.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowBYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T11:27:47.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Sale_masterController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Controllers\\Sale_masterController.cs",
+              "RelativeDocumentMoniker": "Medicalstore\\Controllers\\Sale_masterController.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Controllers\\Sale_masterController.cs",
+              "RelativeToolTip": "Medicalstore\\Controllers\\Sale_masterController.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAA9wBMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T11:04:01.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Sale_detailsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Models\\Sale_detailsRepository.cs",
+              "RelativeDocumentMoniker": "Medicalstore\\Models\\Sale_detailsRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Models\\Sale_detailsRepository.cs",
+              "RelativeToolTip": "Medicalstore\\Models\\Sale_detailsRepository.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowJgAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T10:55:55.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Views\\Sale_master\\Create.cshtml",
+              "RelativeDocumentMoniker": "Medicalstore\\Views\\Sale_master\\Create.cshtml",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Views\\Sale_master\\Create.cshtml",
+              "RelativeToolTip": "Medicalstore\\Views\\Sale_master\\Create.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABcAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-30T11:03:33.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Sale_detailsController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Controllers\\Sale_detailsController.cs",
+              "RelativeDocumentMoniker": "Medicalstore\\Controllers\\Sale_detailsController.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Controllers\\Sale_detailsController.cs",
+              "RelativeToolTip": "Medicalstore\\Controllers\\Sale_detailsController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBoAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T11:04:35.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BrandRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Models\\BrandRepository.cs",
+              "RelativeDocumentMoniker": "Medicalstore\\Models\\BrandRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Models\\BrandRepository.cs",
+              "RelativeToolTip": "Medicalstore\\Models\\BrandRepository.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T10:21:41.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "InvoiceController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Controllers\\InvoiceController.cs",
+              "RelativeDocumentMoniker": "Medicalstore\\Controllers\\InvoiceController.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Controllers\\InvoiceController.cs",
+              "RelativeToolTip": "Medicalstore\\Controllers\\InvoiceController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwAcAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T10:48:08.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CustomerReportController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Controllers\\Reports\\CustomerReportController.cs",
+              "RelativeDocumentMoniker": "Medicalstore\\Controllers\\Reports\\CustomerReportController.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Controllers\\Reports\\CustomerReportController.cs",
+              "RelativeToolTip": "Medicalstore\\Controllers\\Reports\\CustomerReportController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T18:01:19.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ReceiptController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Controllers\\ReceiptController.cs",
+              "RelativeDocumentMoniker": "Medicalstore\\Controllers\\ReceiptController.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Controllers\\ReceiptController.cs",
+              "RelativeToolTip": "Medicalstore\\Controllers\\ReceiptController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T17:57:05.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Medicine_MasterController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Controllers\\Medicine_MasterController.cs",
+              "RelativeDocumentMoniker": "Medicalstore\\Controllers\\Medicine_MasterController.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Controllers\\Medicine_MasterController.cs",
+              "RelativeToolTip": "Medicalstore\\Controllers\\Medicine_MasterController.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAuwBcAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T17:54:17.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Medicine_CatController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Controllers\\Medicine_CatController.cs",
+              "RelativeDocumentMoniker": "Medicalstore\\Controllers\\Medicine_CatController.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Controllers\\Medicine_CatController.cs",
+              "RelativeToolTip": "Medicalstore\\Controllers\\Medicine_CatController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T09:28:36.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Medicalstore\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Medicalstore\\Controllers\\CustomerController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T17:50:01.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ReceiptReportController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Controllers\\Reports\\ReceiptReportController.cs",
+              "RelativeDocumentMoniker": "Medicalstore\\Controllers\\Reports\\ReceiptReportController.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Controllers\\Reports\\ReceiptReportController.cs",
+              "RelativeToolTip": "Medicalstore\\Controllers\\Reports\\ReceiptReportController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T18:11:29.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Views\\Invoice\\Index.cshtml",
+              "RelativeDocumentMoniker": "Medicalstore\\Views\\Invoice\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Views\\Invoice\\Index.cshtml",
+              "RelativeToolTip": "Medicalstore\\Views\\Invoice\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-31T09:40:03.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Views\\Sale_master\\Index.cshtml",
+              "RelativeDocumentMoniker": "Medicalstore\\Views\\Sale_master\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Views\\Sale_master\\Index.cshtml",
+              "RelativeToolTip": "Medicalstore\\Views\\Sale_master\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-30T11:33:07.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Views\\Sale_details\\Index.cshtml",
+              "RelativeDocumentMoniker": "Medicalstore\\Views\\Sale_details\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Views\\Sale_details\\Index.cshtml",
+              "RelativeToolTip": "Medicalstore\\Views\\Sale_details\\Index.cshtml",
+              "ViewState": "AQIAADcAAAAAAAAAAAAUwEoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-30T12:22:00.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Views\\Medicine_Master\\Create.cshtml",
+              "RelativeDocumentMoniker": "Medicalstore\\Views\\Medicine_Master\\Create.cshtml",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Views\\Medicine_Master\\Create.cshtml",
+              "RelativeToolTip": "Medicalstore\\Views\\Medicine_Master\\Create.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T13:09:52.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Views\\Medicine_Master\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Medicalstore\\Views\\Medicine_Master\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Views\\Medicine_Master\\Delete.cshtml",
+              "RelativeToolTip": "Medicalstore\\Views\\Medicine_Master\\Delete.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T13:12:26.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Medicine_CatRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Models\\Medicine_CatRepository.cs",
+              "RelativeDocumentMoniker": "Medicalstore\\Models\\Medicine_CatRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Models\\Medicine_CatRepository.cs",
+              "RelativeToolTip": "Medicalstore\\Models\\Medicine_CatRepository.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAmwDAAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T11:05:14.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Medicine_MasterRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Models\\Medicine_MasterRepository.cs",
+              "RelativeDocumentMoniker": "Medicalstore\\Models\\Medicine_MasterRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Models\\Medicine_MasterRepository.cs",
+              "RelativeToolTip": "Medicalstore\\Models\\Medicine_MasterRepository.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAmwBIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T12:25:14.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Medicine_Cat.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Models\\Medicine_Cat.cs",
+              "RelativeDocumentMoniker": "Medicalstore\\Models\\Medicine_Cat.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Models\\Medicine_Cat.cs",
+              "RelativeToolTip": "Medicalstore\\Models\\Medicine_Cat.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T11:04:58.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Models\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "Medicalstore\\Models\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Models\\CustomerRepository.cs",
+              "RelativeToolTip": "Medicalstore\\Models\\CustomerRepository.cs",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAmwBEAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T10:47:28.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IBrandRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Models\\IBrandRepository.cs",
+              "RelativeDocumentMoniker": "Medicalstore\\Models\\IBrandRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Models\\IBrandRepository.cs",
+              "RelativeToolTip": "Medicalstore\\Models\\IBrandRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T10:00:41.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Brand.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Models\\Brand.cs",
+              "RelativeDocumentMoniker": "Medicalstore\\Models\\Brand.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Models\\Brand.cs",
+              "RelativeToolTip": "Medicalstore\\Models\\Brand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T10:16:53.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Medicalstore\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Medicalstore\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T09:49:28.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Sale_details.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Models\\Sale_details.cs",
+              "RelativeDocumentMoniker": "Medicalstore\\Models\\Sale_details.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Models\\Sale_details.cs",
+              "RelativeToolTip": "Medicalstore\\Models\\Sale_details.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T06:29:26.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Views\\Sale_details\\Create.cshtml",
+              "RelativeDocumentMoniker": "Medicalstore\\Views\\Sale_details\\Create.cshtml",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Views\\Sale_details\\Create.cshtml",
+              "RelativeToolTip": "Medicalstore\\Views\\Sale_details\\Create.cshtml",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAABoAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-30T12:05:46.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Sale_detailsmasterReportController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Controllers\\Reports\\Sale_detailsmasterReportController.cs",
+              "RelativeDocumentMoniker": "Medicalstore\\Controllers\\Reports\\Sale_detailsmasterReportController.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Controllers\\Reports\\Sale_detailsmasterReportController.cs",
+              "RelativeToolTip": "Medicalstore\\Controllers\\Reports\\Sale_detailsmasterReportController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T18:11:57.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Medicalstore\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Medicalstore\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADoAAABxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-31T03:52:49.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Medicalstore\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Medicalstore\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACEAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-31T09:11:41.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Views\\Brand\\Index.cshtml",
+              "RelativeDocumentMoniker": "Medicalstore\\Views\\Brand\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Views\\Brand\\Index.cshtml",
+              "RelativeToolTip": "Medicalstore\\Views\\Brand\\Index.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-02T04:25:31.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Views\\Brand\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Medicalstore\\Views\\Brand\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Views\\Brand\\Delete.cshtml",
+              "RelativeToolTip": "Medicalstore\\Views\\Brand\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-02T04:35:21.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Views\\Brand\\Create.cshtml",
+              "RelativeDocumentMoniker": "Medicalstore\\Views\\Brand\\Create.cshtml",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Views\\Brand\\Create.cshtml",
+              "RelativeToolTip": "Medicalstore\\Views\\Brand\\Create.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-02T04:29:47.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Medicine_MasterReportController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Controllers\\Reports\\Medicine_MasterReportController.cs",
+              "RelativeDocumentMoniker": "Medicalstore\\Controllers\\Reports\\Medicine_MasterReportController.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Controllers\\Reports\\Medicine_MasterReportController.cs",
+              "RelativeToolTip": "Medicalstore\\Controllers\\Reports\\Medicine_MasterReportController.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAcwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T18:10:46.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ReceiptRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Models\\ReceiptRepository.cs",
+              "RelativeDocumentMoniker": "Medicalstore\\Models\\ReceiptRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Models\\ReceiptRepository.cs",
+              "RelativeToolTip": "Medicalstore\\Models\\ReceiptRepository.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAUwF0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T03:50:23.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Medicine_Master.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Models\\Medicine_Master.cs",
+              "RelativeDocumentMoniker": "Medicalstore\\Models\\Medicine_Master.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Models\\Medicine_Master.cs",
+              "RelativeToolTip": "Medicalstore\\Models\\Medicine_Master.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T11:07:13.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ISale_masterRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Models\\ISale_masterRepository.cs",
+              "RelativeDocumentMoniker": "Medicalstore\\Models\\ISale_masterRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Models\\ISale_masterRepository.cs",
+              "RelativeToolTip": "Medicalstore\\Models\\ISale_masterRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T11:04:54.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ISale_detailsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Models\\ISale_detailsRepository.cs",
+              "RelativeDocumentMoniker": "Medicalstore\\Models\\ISale_detailsRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Models\\ISale_detailsRepository.cs",
+              "RelativeToolTip": "Medicalstore\\Models\\ISale_detailsRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T11:04:40.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IReceiptRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Models\\IReceiptRepository.cs",
+              "RelativeDocumentMoniker": "Medicalstore\\Models\\IReceiptRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Models\\IReceiptRepository.cs",
+              "RelativeToolTip": "Medicalstore\\Models\\IReceiptRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T11:04:34.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "IMedicine_CatRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Models\\IMedicine_CatRepository.cs",
+              "RelativeDocumentMoniker": "Medicalstore\\Models\\IMedicine_CatRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Models\\IMedicine_CatRepository.cs",
+              "RelativeToolTip": "Medicalstore\\Models\\IMedicine_CatRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T11:04:27.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Medicalstore\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Models\\Customer.cs",
+              "RelativeToolTip": "Medicalstore\\Models\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T10:56:44.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Views\\Receipt\\Index.cshtml",
+              "RelativeDocumentMoniker": "Medicalstore\\Views\\Receipt\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Views\\Receipt\\Index.cshtml",
+              "RelativeToolTip": "Medicalstore\\Views\\Receipt\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-31T03:51:17.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Sale_master.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Models\\Sale_master.cs",
+              "RelativeDocumentMoniker": "Medicalstore\\Models\\Sale_master.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Models\\Sale_master.cs",
+              "RelativeToolTip": "Medicalstore\\Models\\Sale_master.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T03:48:35.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Views\\Sale_details\\Details.cshtml",
+              "RelativeDocumentMoniker": "Medicalstore\\Views\\Sale_details\\Details.cshtml",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Views\\Sale_details\\Details.cshtml",
+              "RelativeToolTip": "Medicalstore\\Views\\Sale_details\\Details.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEAAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-30T12:22:16.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Invoice.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Models\\Invoice.cs",
+              "RelativeDocumentMoniker": "Medicalstore\\Models\\Invoice.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Medicalstore\\Medicalstore\\Models\\Invoice.cs",
+              "RelativeToolTip": "Medicalstore\\Models\\Invoice.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T11:36:26.118Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

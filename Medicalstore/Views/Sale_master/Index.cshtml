@@ -1,0 +1,61 @@
+﻿@model IEnumerable<Medicalstore.Models.Sale_master>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Sale Master</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+
+</p>
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr class="text-center text-white bg-dark">
+            <th>
+              Sale Id
+            </th>
+            <th>
+             Sale Date
+            </th>
+            <th>
+            Customer Id
+            </th>
+            <th>
+            Grand Total
+            </th>
+            <th></th>
+          <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.sale_id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.sale_date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.cust_id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.grand_total)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new {id=item.sale_id})|
+                @Html.ActionLink("Details", "Details", new { id=item.sale_id})|
+                @Html.ActionLink("Delete", "Delete", new {id=item.sale_id})
+            </td>
+                <td>
+                    <a asp-action="Index" asp-controller="Invoice" asp-route-sale_id="@item.sale_id" class="btn btn-success"> Get Invoice</a>
+     
+                </td>
+        </tr>
+           
+}
+    </tbody>
+
+</table>

@@ -1,0 +1,26 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<table class="table table-bordered table-hover">
+    <tr class="bg-dark text-white">
+        <th >Brand Id</th>
+        <th>Brand Name</th>
+
+    </tr>
+    @{
+        if (ViewData["Brandlist"] != null)
+        {
+            List<Brand> Brandlist = (List<Brand>)ViewData["Brandlist"];
+            foreach (var branded in Brandlist)
+            {
+                <tr>
+                    <td>@branded.brand_id</td>
+                    <td>@branded.brand_nm</td>
+
+                </tr>
+            }
+        }
+    }
+</table>

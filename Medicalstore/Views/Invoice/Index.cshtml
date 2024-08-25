@@ -1,0 +1,156 @@
+﻿@using System.Collections
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+
+}
+@{
+
+
+    if (ViewData["Invoicedata"] != null)
+    {
+        int s_id=0;
+        DateTime s_date=System.DateTime.Now;
+        string c_nm="", c_addr="", c_phn="", c_email="";
+        ArrayList sale_det_id = new ArrayList();
+        ArrayList med_nm = new ArrayList();
+        ArrayList rate = new ArrayList();
+        ArrayList qty = new ArrayList();
+        ArrayList amt = new ArrayList();
+        ArrayList gst = new ArrayList();
+        ArrayList total = new ArrayList();
+        int tot_amt = 0;
+        double grand_total = 0;
+        List<dynamic> Invoicelist = (List<dynamic>)ViewData["Invoicedata"];
+        foreach (var x in Invoicelist)
+        {
+            s_id=x.sale_id;
+            s_date = x.sale_date;
+            c_nm = x.cust_nm;
+            c_addr = x.cust_address;
+            c_phn = x.cust_phone;
+            c_email = x.cust_email;
+            sale_det_id.Add(x.sale_det_id);
+            med_nm.Add(x.med_nm);
+            rate.Add(x.rate);
+            qty.Add(x.qty);
+            amt.Add(x.amt);
+            gst.Add(x.gst);
+            total.Add(x.total);
+        }
+<header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 text-primary">
+                <h1 style="font-weight: 900;">MediCare</h1>
+
+            </div>
+            <div class="col-lg-6 ">
+                <div class="float-end">
+                    <h1>Medical Invoice</h1>
+                    <p>Invoice No: @s_id</p>
+                    <p> Invoice Date: @s_date.ToString("dd-MMMMMMMMM-yy")</p>
+                    <p></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div>
+                    <b>From</b>
+                    <p><strong>Saido Apps</strong></p>
+
+                    <p>Snehal Patil</p>
+                    <p>sneha123@gmail.com</p>
+                    <p>80296979597</p>
+                    <p>saidoapps.com</p>
+                    <p>Pune</p>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="float-end">
+                    <p> <strong>Bill to</strong></p>
+                    <p><h5>@c_nm</h5></p>
+                    <p>@c_email</p>
+                    <p>@c_phn</p>
+                    <p>@c_addr</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        
+        <table class="table table-hover">
+            <thead>
+                <tr class="table-primary">
+                    <th>Sr. No.</th>
+                    <th>Medicine Name</th>
+                    <th>Rate </th>
+                    <th>Quantity</th>
+                    <th>Amount</th>
+                    <th>GST</th>
+                    <th>Total Amount</th>
+                </tr>
+            </thead>
+            <tbody>
+            @for(int i=0; i<sale_det_id.Count;i++)
+            {
+                <tr>
+                     <td>@sale_det_id[i]</td>
+                     <td>@med_nm[i]</td>
+                     <td>@rate[i]</td>
+                     <td>@qty[i]</td>
+                     <td>@amt[i]</td>
+                     <td>@gst[i] %</td>
+                     <td>@total[i] /-</td>
+                </tr>
+            tot_amt += (int)amt[i];
+            grand_total += (double)total[i];
+            }
+                <tr class="table-primary font-weight-bold">
+                    <td colspan="3"></td>
+                    <td>Total Amount</td>
+                    <td>@tot_amt</td>
+                    <td colspan="2"></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div>
+                        <p><strong>Payment instrucation</strong></p>
+                        <p>Cash Payment</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <table class="table">
+                        <tr>
+                            <th>Subtotal</th>
+                                    <th>₹ @Math.Round(grand_total, 2)</th>
+                        </tr>
+                        
+                        <tr class="table-info">
+                                    <td class="font-weight-bold"><h1>Total Payable:</h1></td>
+                                    <td class="font-weight-bold"><h1>₹ @Math.Round(grand_total, 2)</h1></td>
+                        </tr>
+
+
+                    </table>
+                    </div>
+                    <input class="btn btn-primary" type="button" id="print" value="Download Invoice" onclick="printInvoice()"/>
+                </div>
+            </div>
+        </div>
+</header>
+}
+else{
+    <h1>No Records Found!!!</h1>
+}
+}

@@ -1,0 +1,52 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<form method="post">
+    <select name="t1" class="form-select">
+        @{
+            if (ViewData["brand"] != null)
+            {
+                List<Brand> medicine = (List<Brand>)ViewData["brand"];
+                foreach (var medicinedata in medicine)
+                {
+                    <option value="@medicinedata.brand_id">@medicinedata.brand_nm</option>
+                }
+            }
+        }
+    </select>
+    <input type="submit" value="Show" />
+</form>
+@{
+    if (ViewData["medicine_Masterslist"] != null)
+    {
+        <table class="table table-hover table-bordered">
+            <tr class="text-center bg-dark text-white">
+                <th>Medicine Id</th>
+                <th>Medicine Name</th>
+                <th>cat id</th>
+                <th>Brand Id</th>
+                <th>contents</th>
+                <th>rate</th>
+                <th>stock</th>
+
+            </tr>
+            @{
+                List<dynamic> medicinecat = (List<dynamic>)ViewData["medicine_Masterslist"];
+                foreach (var medicinedata in medicinecat)
+                {
+                    <tr class="text-center">
+                        <th>@medicinedata.med_id</th>
+                        <th>@medicinedata.med_nm</th>
+                        <th>@medicinedata.cat_nm</th>
+                        <th>@medicinedata.brand_nm</th>
+                        <th>@medicinedata.contents</th>
+                        <th>@medicinedata.rate</th>
+                        <th>@medicinedata.stock</th>
+                    </tr>
+                }
+            }
+        </table>
+    }
+}

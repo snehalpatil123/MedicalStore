@@ -1,0 +1,46 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<form method="post">
+    <div class="form-group">
+        <label class="control-label">From Date</label>
+        <input class="form-control" type="date" name="t1">
+    </div>
+    <div class="form-group">
+        <label class="control-label">To Date</label>
+        <input class="form-control" type="date" name="t2">
+    </div>
+    <div class="form-group">
+        <input class="btn btn-primary" type="submit" value="show">
+    </div>
+</form>
+@{
+    if (ViewData["Receiptlist"] != null)
+    {
+        <table class="table table-bordered table-hover">
+            <tr class="text-center bg-dark text-white">
+                <th>Receipt Id</th>
+                <th>Receipt date</th>
+                <th>Customer Id</th>
+                <th>Receipt ammount</th>
+               
+            </tr>
+            @{
+                List<Receipt> Receiptlist = (List<Receipt>)ViewData["Receiptlist"];
+                foreach (var Receiptdata in Receiptlist)
+
+                {
+                    <tr class="text-center">
+                        <td>@Receiptdata.rec_id</td>
+                        <td>@Receiptdata.rec_date</td>
+                       <td>@Receiptdata.cust_id</td>
+                       <td>@Receiptdata.rec_amt</td>
+
+                    </tr>
+                }
+            }
+        </table>
+    }
+}

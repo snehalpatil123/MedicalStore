@@ -1,0 +1,41 @@
+﻿@model IEnumerable<Medicalstore.Models.Medicine_Cat>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Medicine Categoery</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr class="text-white bg-dark text-center">
+            <th>
+             Medicine Categoery Id
+            </th>
+            <th>
+          Medicine Categoery Name
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.cat_id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.cat_nm)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new {  id=item.cat_id})|
+                @Html.ActionLink("Details", "Details", new { id=item.cat_id})|
+                @Html.ActionLink("Delete", "Delete", new { id=item.cat_id})
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

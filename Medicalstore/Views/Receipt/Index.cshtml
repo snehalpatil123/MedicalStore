@@ -1,0 +1,55 @@
+﻿@model IEnumerable<Medicalstore.Models.Receipt>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Receipt</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr class="bg-dark text-white ">
+            <th>
+               Receipt Id
+            </th>
+            <th>
+                Receipt Date
+            </th>
+            <th>
+              Customer Id
+            </th>
+            <th>
+                Receipt Ammount
+            </th>
+          <th></th>
+        </tr>
+        
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.rec_id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.rec_date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.cust_id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.rec_amt)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.rec_id})|
+                @Html.ActionLink("Details", "Details", new { id=item.rec_id})|
+                @Html.ActionLink("Delete", "Delete", new {  id=item.rec_id})
+            </td>
+           
+        </tr>
+}
+    </tbody>
+</table>

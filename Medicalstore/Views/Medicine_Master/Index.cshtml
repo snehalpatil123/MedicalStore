@@ -1,0 +1,71 @@
+﻿@model IEnumerable<Medicalstore.Models.Medicine_Master>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Medicine Master</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr class="text-white text-center bg-dark">
+            <th>
+                Medicine Id
+            </th>
+            <th>
+                Medicine Name
+            </th>
+            <th>
+                Category id
+            </th>
+            <th>
+                Brand id
+            </th>
+            <th>
+                Contents
+            </th>
+            <th>
+                Rate
+            </th>
+            <th>
+                Stock
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.med_id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.med_nm)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.cat_id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.brand_id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.contents)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.rate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.stock)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.med_id })|
+                @Html.ActionLink("Details", "Details", new { id=item.med_id })|
+                @Html.ActionLink("Delete", "Delete", new { id=item.med_id })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

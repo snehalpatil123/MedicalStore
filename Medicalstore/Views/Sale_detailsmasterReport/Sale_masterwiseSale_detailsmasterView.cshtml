@@ -1,0 +1,54 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<form method="post">
+    <select name="t1" class="form-select">
+        @{
+            if (ViewData["Sale_data"] != null)
+            {
+                List<Sale_master> salelist = (List<Sale_master>)ViewData["Sale_data"];
+                foreach (var salemasterdata in salelist)
+                {
+                    <option value="@salemasterdata.sale_id">@salemasterdata.sale_date</option>
+                }
+            }
+        }
+    </select>
+    <input type="submit" value="Show" />
+</form>
+@{
+    if (ViewData["sale_Details"] != null)
+    {
+        <table class="table table-bordered table-hover">
+            <tr class="text-center bg-dark text-white">
+                <th>saledate_id</th>
+                <th>sale_date</th>
+                <th>medicine_Name</th>
+                <th>rate</th>
+                <th>qty</th>
+                  <th>ammount</th>
+                  <th>Gst</th>
+                  <th>total</th>
+                </tr>
+            @{
+                List<dynamic> salelist = (List<dynamic>)ViewData["sale_Details"];
+                foreach (var saledata in salelist)
+                {
+                    <tr>
+                        <td>@saledata.sale_det_id</td>
+                        <td>@saledata.sale_date</td>
+                        <td>@saledata.med_nm</td>
+                        <td>@saledata.rate</td>
+                        <td>@saledata.qty</td>
+                        <td>@saledata.amt</td>
+                        <td>@saledata.gst</td>
+                        <td>@saledata.total</td>
+
+                    </tr>
+                }
+            }
+        </table>
+    }
+}

@@ -1,0 +1,66 @@
+﻿@model Medicalstore.Models.Sale_details
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Sale Details</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+         Sale Details Id
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.sale_det_id)
+        </dd>
+        <dt class = "col-sm-2">
+        Sale Id
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.sale_id)
+        </dd>
+        <dt class = "col-sm-2">
+          Medicine Id
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.med_id)
+        </dd>
+        <dt class = "col-sm-2">
+           Rate
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.rate)
+        </dd>
+        <dt class = "col-sm-2">
+         Quantity
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.qty)
+        </dd>
+        <dt class = "col-sm-2">
+          Ammount
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.amt)
+        </dd>
+        <dt class = "col-sm-2">
+           Gst
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.gst)
+        </dd>
+        <dt class = "col-sm-2">
+        Total
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.total)
+        </dd>
+    </dl>
+</div>
+<div>
+    @* @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) *@ |
+    <a asp-action="Index">Back to List</a>
+</div>

@@ -1,0 +1,32 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<table class="table table-bordered table-hover">
+    <tr class="text-center bg-dark text-white">
+        <th>sale_Id</th>
+        <th>sale_date</th>
+        <th>Cust_name</th>
+        <th>grand_total</th>
+
+
+    </tr>
+    @{
+        if (ViewData["sale_Masters"] != null)
+        {
+            List<dynamic> Salelist = (List<dynamic>)ViewData["sale_Masters"];
+            foreach (var SaleMasterdata in Salelist)
+            {
+                <tr class="text-center">
+                    <td>@SaleMasterdata.sale_id</td>
+                    <td>@SaleMasterdata.sale_date</td>
+                    <td>@SaleMasterdata.cust_nm</td>
+                    <td>@SaleMasterdata.grand_total</td>
+
+
+                </tr>
+            }
+        }
+    }
+</table>

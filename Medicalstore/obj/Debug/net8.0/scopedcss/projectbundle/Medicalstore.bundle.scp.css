@@ -1,0 +1,49 @@
+/* _content/Medicalstore/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-shnjrr9ijl] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-shnjrr9ijl] {
+  color: #0077cc;
+}
+
+.btn-primary[b-shnjrr9ijl] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-shnjrr9ijl], .nav-pills .show > .nav-link[b-shnjrr9ijl] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-shnjrr9ijl] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-shnjrr9ijl] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-shnjrr9ijl] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-shnjrr9ijl] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-shnjrr9ijl] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}

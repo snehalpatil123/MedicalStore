@@ -1,0 +1,46 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<form method="post">
+    <div class="form-group">
+        <label class="control-label">From Date</label>
+        <input class="form-control" type="date" name="t1">
+    </div>
+    <div class="form-group">
+        <label class="control-label">To Date</label>
+        <input class="form-control" type="date" name="t2">
+    </div>
+    <div class="form-group">
+        <input class="btn btn-primary" type="submit" value="show">
+    </div>
+</form>
+@{
+    if (ViewData["Salelist"] != null)
+    {
+        <table class="table table-bordered table-hover">
+            <tr>
+                <th>Sale Id</th>
+                <th>Sale date</th>
+                <th>Customer Id</th>
+                <th>Grand total</th>
+
+            </tr>
+            @{
+                List<Sale_master> Salelist = (List<Sale_master>)ViewData["Salelist"];
+                foreach (var Saledata in Salelist)
+
+                {
+                    <tr>
+                        <td>@Saledata.sale_id</td>
+                        <td>@Saledata.sale_date</td>
+                        <td>@Saledata.cust_id</td>
+                        <td>@Saledata.grand_total</td>
+
+                    </tr>
+                }
+            }
+        </table>
+    }
+}

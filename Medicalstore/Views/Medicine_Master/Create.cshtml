@@ -1,0 +1,103 @@
+﻿@model Medicalstore.Models.Medicine_Master
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Add New</h1>
+
+<h4>Medicine Master</h4>
+<hr />
+<div class="row">
+   
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+           <div class="row">
+               <div class="col-md-6">
+            <div class="form-group">
+                <label asp-for="med_nm" class="control-label">Enter Medicine Name:</label>
+                <input asp-for="med_nm" class="form-control" />
+                <span asp-validation-for="med_nm" class="text-danger"></span>
+            </div>
+            </div>
+            <div class="col-md-6">
+            <div class="form-group">
+                <label asp-for="cat_id" class="control-label">Enter Medicine Categoery Name: </label>
+                <select asp-for="cat_id" class="form-select">
+                    @{
+                        if (ViewData["medicine_Cats"] != null)
+                        {
+                            List<Medicine_Cat> medicine_cats = (List<Medicine_Cat>)ViewData["medicine_Cats"];
+                            foreach (var medicine_Cat in medicine_cats)
+
+                            {
+                                <option value="@medicine_Cat.cat_id">
+                                    @medicine_Cat.cat_nm
+                                </option>
+                            }
+                        }
+                    }
+
+                </select>
+                <span asp-validation-for="cat_id" class="text-danger"></span>
+            </div>
+            </div>
+            <div class="col-md-6">
+            <div class="form-group">
+                <label asp-for="brand_id" class="control-label">Enter Brand Name:</label>
+                <select asp-for="brand_id" class="form-select">
+                    @{
+                        if (ViewData["brands"] != null)
+                        {
+                            List<Brand> brands = (List<Brand>)ViewData["brands"];
+                            foreach (var brandsdata in brands)
+                            {
+                                <option  value="@brandsdata.brand_id">
+                                @brandsdata.brand_nm
+                                </option>
+                            
+                            }
+
+                        }
+
+                    }
+                </select>
+                <span asp-validation-for="brand_id" class="text-danger"></span>
+            </div>
+            </div>
+            <div class="col-md-6">
+            <div class="form-group">
+                <label asp-for="contents" class="control-label"></label>
+                <input asp-for="contents" class="form-control" />
+                <span asp-validation-for="contents" class="text-danger"></span>
+            </div>
+            </div>
+            <div class="col-md-6">
+            <div class="form-group">
+                <label asp-for="rate" class="control-label"></label>
+                <input asp-for="rate" class="form-control" />
+                <span asp-validation-for="rate" class="text-danger"></span>
+            </div>
+            </div>
+            <div class="col-md-6">
+            <div class="form-group">
+                <label asp-for="stock" class="control-label"></label>
+                <input asp-for="stock" class="form-control" />
+                <span asp-validation-for="stock" class="text-danger"></span>
+            </div>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </div>
+        </form>
+  
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
